@@ -1,0 +1,43 @@
+####################################
+	Comandes GIT
+####################################
+
+
+$ git pull origin <branca> --On <branca> pot ser master o qualsevol altre creada.
+    La seva funció es la d'actualitzar o comprovar que no hi ha cap fitxer nou o que ha variat el seu contingut. Útil fer servir aquesta comanda abans de pujar res, així comprovem si no ha ha res de nou el qual podem solapar.
+
+$ git push origin <branca> --On <branca> pot ser master o qualsevol altre creada.
+    La seva funció consisteix en pujar tots els fitxers que tinguem.
+
+
+Crear un nou branch
+########################
+$ git branch nombredelbranch
+
+
+
+CAMBIARSE DE BRANCH
+########################
+$ git checkout nombredelbrach
+
+
+
+Fusiona la branca actual em la que li introdueixis. Pot haver conflictes d'arxius. 
+########################################################################
+$ git merge <branch>
+
+Mostra les diferencies entre dues branques
+################################################
+$ git diff <branca1> <branca2>
+
+
+
+Después de modificarlos, necesitas marcarlos como fusionados con
+################################################
+$ git add <filename>
+
+
+
+Interfície gràfica per fer servir git. Permet pujar arxius i fer-ne commit.
+########################################################################
+$ git gui
