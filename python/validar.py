@@ -29,7 +29,7 @@ def validar_usuario():
         print "El nombre de usuario puede contener solo letras y números"
         validar_usuario()
 
-validar_usuario()
+#validar_usuario()
 
 """
 if __name__ == '__main__':
